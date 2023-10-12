@@ -24,3 +24,6 @@ circle.addEventListener('click', () => {
 	const pts = document.getElementById('points')
 	pts.textContent = Number(points.textContent) + 1
 })
+document.addEventListener("contextmenu", (event) => {
+      event.preventDefault();
+    });
