@@ -8,12 +8,14 @@ const firstCircle = () => {
 	circle.style.backgroundColor = `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`
   circle.style.top = `${Math.floor(Math.random() * 90)}vh`
   circle.style.left = `${Math.floor(Math.random() * 90)}vw`
+  circle.style.boxShadow = `0px 0px 50px 5px ${circle.style.backgroundColor}`
 }
 
 const newCircle = () => {
 	circle.style.backgroundColor = `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`
   circle.style.top = `${Math.floor(Math.random() * 90)}vh`
   circle.style.left = `${Math.floor(Math.random() * 90)}vw`
+  circle.style.boxShadow = `0px 0px 50px 5px ${circle.style.backgroundColor}`
 }
 
 firstCircle()
