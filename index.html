@@ -1,8 +1,19 @@
-<link rel=stylesheet href="./index.css">
-<h1>
-  Catch the ball!
+<h1 id=text>
+  Click the ball!
 </h1>
 <h2>
-  <span id=points>0</span> Points
+  <span id="points">0</span> Clicks
+  <br>
+  <span id="misses">0</span> Misses In a Row
 </h2>
-<script src="./game.js"></script>
+<select id="mode">
+  <option>Choose one (default is Normal)</option>
+  <option value="troll">TROLL</option>
+  <option value="easy">Easy</option>
+  <option value="normal">Normal</option>
+  <option value="medium">Medium</option>
+  <option value="hard">Hard</option>
+  <option value="extreme">Extreme</option>
+  <option value="impossible">Impossible</option>
+  <option value="fly">FLY (only possible with luck)</option>
+</select>
