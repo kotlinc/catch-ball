@@ -1,11 +1,156 @@
 .circle {
-  width: 10vh;
-  height: 10vh;
+  width: 80px;
+  height: 80px;
   border-radius: 100%;
   position: absolute;
-  transition-duration: 1s;
+  border-style: solid;
+  border-width: 10px;
+  transform: scale(1);
+  animation: pulse 1.5s infinite;
 }
 
 h1, h2 {
-  font-family: 'Segoe UI', system-ui
+  font-family: 'Segoe UI', system-ui;
+  color: #efefef;
+}
+
+body {
+  background-color: #101010;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.8);
+    opacity: 0;
+	}
+  
+  4.375% {
+		transform: scale(0.8125);
+	}
+  
+  8.75% {
+		transform: scale(0.825);
+	}
+  
+  13.125% {
+		transform: scale(0.8375);
+	}
+  
+  17.5% {
+		transform: scale(0.85);
+	}
+  
+  21.875% {
+		transform: scale(0.8625);
+	}
+  
+  26.25% {
+		transform: scale(0.875);
+	}
+  
+  30.625% {
+		transform: scale(0.8875);
+	}
+  
+  35% {
+		transform: scale(0.9);
+	}
+  
+  39.375% {
+		transform: scale(0.9125);
+	}
+  
+  43.75% {
+		transform: scale(0.925);
+	}
+  
+  48.125% {
+		transform: scale(0.9375);
+	}
+  
+  52.5% {
+		transform: scale(0.95);
+    opacity: 1;
+	}
+  
+  56.875% {
+		transform: scale(0.9625);
+	}
+  
+  61.25% {
+		transform: scale(0.975);
+	}
+  
+  65.625% {
+		transform: scale(0.9875);
+	}
+  
+	70% {
+		transform: scale(1);
+	}
+  
+  71.875% {
+		transform: scale(0.9875);
+	}
+  
+  73.75% {
+		transform: scale(0.975);
+	}
+  
+  75.625% {
+		transform: scale(0.9675);
+	}
+  
+  77.5% {
+		transform: scale(0.95);
+	}
+  
+  79.625% {
+		transform: scale(0.9375);
+	}
+  
+  81.75% {
+		transform: scale(0.925);
+	}
+  
+  83.375% {
+		transform: scale(0.9125);
+	}
+  
+  85% {
+		transform: scale(0.9);
+	}
+  
+  87.125% {
+		transform: scale(0.8875);
+	}
+  
+  89.25% {
+		transform: scale(0.875);
+	}
+  
+  90.875% {
+		transform: scale(0.8625);
+	}
+  
+  92.5% {
+		transform: scale(0.85);
+	}
+  
+  94.3725% {
+		transform: scale(0.8375);
+	}
+  
+  96.25% {
+		transform: scale(0.825);
+	}
+  
+  98.125% {
+		transform: scale(0.8125);
+	}
+  
+	100% {
+		transform: scale(0.8);
+    opacity: 0;
+	}
 }
